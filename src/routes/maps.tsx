@@ -1,4 +1,5 @@
 import Map from "react-map-gl/maplibre";
+import "maplibre-gl/dist/maplibre-gl.css";
 
 export function App() {
   return (
@@ -9,7 +10,7 @@ export function App() {
         zoom: 14,
       }}
       style={{ width: 600, height: 400 }}
-      mapStyle="https://api.maptiler.com/maps/streets/style.json?key=get_your_own_key"
+      mapStyle="https://api.maptiler.com/maps/streets/style.json?key=CUpbwB176UHUnUpFPcsN"
     />
   );
 }
