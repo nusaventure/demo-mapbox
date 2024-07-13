@@ -4,7 +4,7 @@ import "../mapbox-gl.css";
 
 const mapboxAccessToken = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN;
 
-export function App() {
+export function MapExampleRoute() {
   return (
     <div>
       <MapboxMap
